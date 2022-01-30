@@ -15,6 +15,11 @@
     "integration-tests:silent": "cypress run",
     "test": "jest"
   },
+  "jest": {
+    "testMatch": [
+      "**/unit/**/*.spec.js"
+    ]
+  },
   "dependencies": {
     "core-js": "^3.19.3",
     "cypress": "^9.3.1",
