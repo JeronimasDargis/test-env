@@ -11,11 +11,14 @@
     "lint:prettier": "prettier --check .",
     "lint": "npm run lint:js && npm run lint:prettier",
     "lintfix": "prettier --write --list-different . && npm run lint:js -- --fix",
+    "integration-tests": "cypress open --browser chrome",
+    "integration-tests:silent": "cypress run",
     "test": "jest"
   },
   "dependencies": {
     "core-js": "^3.19.3",
     "cypress": "^9.3.1",
+    "eslint-plugin-cypress": "^2.12.1",
     "nuxt": "^2.15.8",
     "vue": "^2.6.14",
     "vue-server-renderer": "^2.6.14",

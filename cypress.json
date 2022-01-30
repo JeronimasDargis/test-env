@@ -1,0 +1,15 @@
+{
+  "baseUrl": "http://localhost:3000",
+  "fixturesFolder": "tests/fixtures",
+  "integrationFolder": "tests/integration",
+  "pluginsFile": false,
+  "screenshotsFolder": "tests/screenshots",
+  "supportFile": false,
+  "videosFolder": "tests/videos",
+  "video": false,
+  "trashAssetsBeforeRuns": true,
+  "viewportWidth": 375,
+  "viewportHeight": 667,
+  "pageLoadTimeout": 120000,
+  "defaultCommandTimeout": 8000
+}
